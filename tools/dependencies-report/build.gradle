@@ -24,7 +24,7 @@ def versionMap = (Map) (new Yaml()).load(new File("$projectDir/../../versions.ym
 
 description = """Logstash Dependency Reporting Utility"""
 version = versionMap['logstash-core']
-String jacksonVersion = versionMap['jackson']
+String jacksonVersion = 2.10.0
 
 repositories {
   mavenCentral()
