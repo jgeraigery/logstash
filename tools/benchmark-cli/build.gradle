@@ -24,7 +24,7 @@ def versionMap = (Map) (new Yaml()).load(new File("$projectDir/../../versions.ym
 
 description = """Logstash End to End Benchmarking Utility"""
 version = versionMap['logstash-core']
-String jacksonVersion = versionMap['jackson']
+String jacksonVersion = 2.11.4
 String jacksonDatabindVersion = versionMap['jackson-databind']
 
 repositories {
